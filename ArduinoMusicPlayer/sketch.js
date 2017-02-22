@@ -68,7 +68,7 @@ function controlSound(input) {
         getSong(currentSong);
       }
       break;
-    case 127:    // fast forward, press 5
+    case 08:    // fast forward, press 5
         song.rate(2.0);   // double the play speed
       if (!song.isPlaying()){
         song.play();
